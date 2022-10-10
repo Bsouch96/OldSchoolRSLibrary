@@ -1,13 +1,6 @@
 ﻿using Newtonsoft.Json;
 using OldSchoolRSLibrary.Models;
 using OldSchoolRSLibrary.Models.ItemsResponse;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Json;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace OldSchoolRSLibrary.Clients
 {
