@@ -5,13 +5,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>BS.OldSchoolRunescape.Clients</Title>
+    <Title>OldSchoolRSLibrary</Title>
     <Description>Library of clients to access various Apis provided by Old SchoolRunescape.</Description>
     <Authors>Ben Souch</Authors>
     <Company>Ben Souch</Company>
     <Copyright>2022</Copyright>
     <PackageTags>Ben; Souch; OSRS; OldSchoolRuneScape;</PackageTags>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
+    <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+    <PackageId>BS.OldSchoolRunescape.Clients</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,6 +27,13 @@
       <Pack>true</Pack>
       <PackagePath>\</PackagePath>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ReadMe.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
